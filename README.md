@@ -93,8 +93,8 @@ Save a new transaction between accounts.
 ### Request body
 ```json
 {
-  "senderAccountId": 1,
-  "receiverAccountId": 2,
+  "sentId": 1,
+  "receiverId": 2,
   "amount": 100.0
 }
 ```
